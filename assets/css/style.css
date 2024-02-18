@@ -12,7 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fefcfb;
-  background: rgb(48, 70, 78);
+  background: rgb(14, 24, 28);
 }
 
 a {
@@ -670,6 +670,8 @@ section {
   transition: all 0.3s ease-in-out;
   text-align: center;
   border: 1px solid #fff;
+  border-radius: 30px;
+
 }
 
 .services .icon {
@@ -701,6 +703,8 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  border-radius: 6px;
+  color: black;
 }
 
 .services .icon-box-pink .icon {
@@ -757,14 +761,18 @@ section {
 
 .why-us
 {
-  background: rgb(48, 70, 78);
+  background: rgb(14, 24, 28);
+  
 }.why-us .container {
-  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  /* box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6); */
   background: white;
+  border-radius: 5px;
+  
 }
 
 .why-us .icon-box+.icon-box {
   margin-top: 50px;
+  
 
 }
 .why-us .icon-box p{
@@ -1430,6 +1438,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  color: black;
 }
 
 /*--------------------------------------------------------------
@@ -1527,11 +1536,12 @@ section {
 }
 
 .contact .info-box {
-  color: #444;
+  color: white;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  /* box-shadow: 0 0 30px rgba(25, 26, 67, 0.484); */
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.405)
 }
 
 .contact .info-box i {
@@ -1544,7 +1554,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #666;
+  color: #858383;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1557,9 +1567,10 @@ section {
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  /* box-shadow: 0 0 30px rgba(214, 215, 216, 0.6); */
   padding: 30px;
   margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.405)
 }
 
 .contact .php-email-form .error-message {
@@ -1669,6 +1680,7 @@ section {
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.405);
 }
 
 .blog .entry .entry-img {
@@ -2020,6 +2032,7 @@ section {
   padding: 30px;
   margin: 0 0 60px 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.405);
 }
 
 .blog .sidebar .sidebar-title {
@@ -2144,7 +2157,7 @@ section {
 }
 
 .blog .sidebar .tags ul a {
-  color: #3f8db5;
+  color: white;
   font-size: 14px;
   padding: 6px 14px;
   margin: 0 6px 8px 0;
